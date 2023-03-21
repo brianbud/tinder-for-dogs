@@ -2,9 +2,7 @@ import dogData from "./data.js";
 import Dog from "./Dog.js";
 
 function render() {
-  document.getElementById("dog").innerHTML = dog.getDogHtml();
+  document.getElementById("dog").innerHTML = dogData[0].name;
 }
 
-const dog = new Dog(dogData);
-
-render();
+let dog = new Dog(dogData);
