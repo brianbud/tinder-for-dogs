@@ -3,13 +3,8 @@ class Dog {
     Object.assign(this, data);
   }
 
-  getDogHtml() {
-    const { name } = this;
-    return `
-        <div>
-            ${name}
-        </div>
-    `;
+  getCharacterHtml() {
+    return ``;
   }
 }
 

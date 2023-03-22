@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(#FFFFFF, #F6F7FB);
+    font-family: 'Poppins', sans-serif;
 }
 
 nav ul {
@@ -22,6 +23,7 @@ nav img {
 }
 
 .img-container {
+    position: relative;
     display: flex;
     justify-content: center; 
 }
@@ -29,6 +31,24 @@ nav img {
 .dog-img {
     width: 98%;
     border-radius: 15px;
+}
+
+.dog-info {
+    position: absolute;
+    bottom: 0;
+    left: 20;
+}
+
+.dog-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #F8F8F8;
+}
+
+.dog-tagline {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #B7B7B7;
 }
 
 .action-btns {
@@ -45,4 +65,10 @@ nav img {
     width: 3rem;
     border-radius: 50%;
     box-shadow: 0px 10px 20px #E9E9EA;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.action-btns img:hover {
+    background-color: rgb(255, 231, 231);
 }
