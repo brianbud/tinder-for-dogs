@@ -1,5 +1,5 @@
-body, html {
-    padding: 0;
+body {
+    background: linear-gradient(#FFFFFF, #F6F7FB);
 }
 
 nav ul {
@@ -15,18 +15,34 @@ nav ul {
 nav img {
     width: 50px;
     height: 50px;
-  }
+}
 
 .logo {
     width: 100%;
 }
 
-main {
+.img-container {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .dog-img {
     width: 98%;
     border-radius: 15px;
+}
+
+.action-btns {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.action-btns img {
+    padding: 1em;
+    background-color: #ffffff;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #E9E9EA;
 }
