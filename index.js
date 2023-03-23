@@ -2,9 +2,13 @@ import dogs from "./data.js";
 import Dog from "./Dog.js";
 
 function render() {
-  document.getElementById("dog").innerHTML = dog.getCharacterHtml();
+  document.getElementById("dog").innerHTML = dog.getProfileHtml();
 }
 
-const dog = new Dog();
+function getNextProfile() {
+  const nextData = dogs.shift();
+  return nextData ? new Dog(nextData) : {};
+}
 
+let dog = getNextProfile();
 render();

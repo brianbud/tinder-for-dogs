@@ -3,13 +3,14 @@ class Dog {
     Object.assign(this, data);
   }
 
-  getCharacterHtml() {
+  getProfileHtml() {
+    const { name, avatar, age, bio } = this;
     return `
     <div class="img-container">
-         <img class="dog-img" src="./images/dog-teddy.jpg" alt="" />
+         <img class="dog-img" src=${avatar} alt="" />
          <div class="dog-info">
-           <p class="dog-title">Teddy, 30</p>
-           <p class="dog-tagline">How you doing?</p>
+           <p class="dog-title">${name}, ${age}</p>
+           <p class="dog-tagline">${bio}</p>
          </div>
        </div>
        <section id="actions" class="action-btns">
