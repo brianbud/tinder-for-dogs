@@ -15,11 +15,6 @@ class Dog {
          <div class="dislike hidden"></div>
          <div class="like hidden"></div>
     </div>
-       <section id="actions" class="action-btns">
-         <img src="images/icon-cross.png" alt="" />
-         <img src="images/icon-heart.png" alt="" />
-       </section>
- 
     `;
   }
 }
