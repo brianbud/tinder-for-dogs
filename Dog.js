@@ -12,7 +12,9 @@ class Dog {
            <p class="dog-title">${name}, ${age}</p>
            <p class="dog-tagline">${bio}</p>
          </div>
-       </div>
+         <div class="dislike hidden"></div>
+         <div class="like hidden"></div>
+    </div>
        <section id="actions" class="action-btns">
          <img src="images/icon-cross.png" alt="" />
          <img src="images/icon-heart.png" alt="" />

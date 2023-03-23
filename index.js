@@ -12,3 +12,6 @@ function getNextProfile() {
 
 let dog = getNextProfile();
 render();
+
+console.log(dogs);
+console.log(dogs.shift());

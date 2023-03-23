@@ -72,3 +72,31 @@ nav img {
 .action-btns img:hover {
     background-color: rgb(255, 231, 231);
 }
+
+.dislike {
+    background-image: url("./images/badge-nope.png");
+	background-size: contain;
+	position: absolute;
+    background-repeat: no-repeat;
+	width: 14rem;
+	height: 7rem;
+	left: 1em;
+	top: 2em;
+    transform: rotate(-30deg);
+}
+
+.like {
+    background-image: url("./images/badge-like.png");
+	background-size: contain;
+	position: absolute;
+    background-repeat: no-repeat;
+	width: 14rem;
+	height: 7rem;
+	left: 1em;
+	top: 2em;
+    transform: rotate(-30deg);
+}
+
+.hidden {
+    display: none;
+}
