@@ -24,8 +24,20 @@ function usersActionChoice(choice) {
     if (dogs.length > 0) {
       dog = getNextProfile();
       render();
+    } else {
+      noMoreProfiles();
     }
   }, 1000);
+}
+
+function noMoreProfiles() {
+  document.getElementById("dog").innerHTML = `
+    <h2 class="end-message">No More users to show</h2>
+  `;
+
+  document.getElementById("actions").innerHTML = `
+  <h2 class= "end-message" >Check again in a while</h2>
+  `;
 }
 
 function render() {

@@ -100,3 +100,9 @@ nav img {
 .hidden {
     display: none;
 }
+
+.end-message {
+    margin-top: 3rem;
+    color:rgb(121, 121, 121);
+    text-align: center;
+}
