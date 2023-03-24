@@ -17,6 +17,14 @@ class Dog {
     </div>
     `;
   }
+
+  setHasBeenLiked(value) {
+    this.getHasBeenLiked = value;
+  }
+
+  setHasBeenSwiped(value) {
+    this.getHasBeenSwiped = value;
+  }
 }
 
 export default Dog;
